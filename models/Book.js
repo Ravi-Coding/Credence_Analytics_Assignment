@@ -6,4 +6,4 @@ const bookSchema = mongoose.Schema({ // new also can use
   summary: String,
 });
 
-module.exports = mongoose.model("books", bookSchema);  // module me collection name and schema name ,ok
+module.exports = mongoose.model("books", bookSchema);  // module:- collection name and schema name ,ok
